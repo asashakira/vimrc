@@ -1,2 +1,2 @@
-require("shakira.core")
 require("shakira.lazy")
+require("shakira.core")
