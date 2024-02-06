@@ -1,3 +1,10 @@
+-- Options are automatically loaded before lazy.nvim startup
+-- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
+-- Add any additional options here
+
+-- don't auto format
+vim.g.autoformat = false
+
 local tabs = 2
 
 -- tabs indents
@@ -12,7 +19,7 @@ vim.o.wrap = false
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.colorcolumn = "120"
-vim.o.signcolumn= "yes"
+vim.o.signcolumn = "yes"
 
 -- search
 vim.o.hlsearch = false
@@ -34,12 +41,14 @@ vim.o.undofile = true
 vim.o.scrolloff = 8
 vim.o.sidescrolloff = 16
 
-vim.o.guifont="Hack Nerd Font:h21"
+vim.o.guifont = "Hack Nerd Font:h21"
 
 vim.o.helpheight = 999 -- full screen help
 vim.o.clipboard = "unnamedplus" -- access system clipboard
 vim.o.termguicolors = true -- more colors
 
 vim.o.updatetime = 50
+
+vim.o.conceallevel = 0 -- don't hide my json strings
 
 vim.g.mapleader = " "
