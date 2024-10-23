@@ -5,7 +5,7 @@
 -- don't auto format
 vim.g.autoformat = false
 
-local tabs = 2
+local tabs = 4
 
 -- tabs indents
 vim.o.tabstop = tabs
@@ -18,7 +18,7 @@ vim.o.wrap = false
 -- column
 vim.o.number = true
 vim.o.relativenumber = true
-vim.o.colorcolumn = "120"
+vim.o.colorcolumn = "80"
 vim.o.signcolumn = "yes"
 
 -- search
