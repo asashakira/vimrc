@@ -18,7 +18,7 @@ vim.o.wrap = false
 -- column
 vim.o.number = true
 vim.o.relativenumber = true
-vim.o.colorcolumn = "80"
+-- vim.o.colorcolumn = "80"
 vim.o.signcolumn = "yes"
 
 -- search
@@ -39,7 +39,7 @@ vim.o.undofile = true
 
 -- so we can actually see
 vim.o.scrolloff = 8
-vim.o.sidescrolloff = 16
+vim.o.sidescrolloff = 8
 
 vim.o.guifont = "Hack Nerd Font:h21"
 
